@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <title>Frameworks</title>
+</head>
+<body>
+    <!-- шапка с инфой о студенте -->
+    <div class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="Andr__inf">
+                    <div class="uni__inner">
+                        <span class="name">Андрій Марценюк <br> 2 КН </span>
+                        <span class="uniplace">Student: <br>VNTU</span>
+                    </div>
+                        <p class="phone">Phone: <br>097-777-77-77</p>
+                        <p class="location">Location: <br>Vinnytsia</p>
+                        <p class="Email">Email: <br> andriy@gmail.com</p>
+                </div>
+                <img src="image/andr.png" alt="" class="andr__image">
+            </div>
+        </div>
+    </div>
+
+    <!-- фреймворк  -->
+    <div class="framework main__block">
+        <div class="container">
+            <div class="framework__inner block">
+                <h2 class="framework__title title">Що таке Framework?</h2>
+                <div class="framework__block inner__block">
+                    <p class="framewrok__text text">Фреймворк (англ. framework – каркас) – це програмне середовище, яке спрощує та прискорює створення програмного забезпечення. За використання фреймворків ви пишете лише код, який реалізує логіку, специфічну для вашого продукту. Вам не доводиться самостійно забезпечувати роботу з базою даних, автентифікацію, підтримку сеансів тощо. Все це реалізовано у фреймворках.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- зачем нужны фреймоврки  -->
+    <div class="frame main__block">
+        <div class="container">
+            <div class="frame__inner block">
+                <h2 class="frame__title title">Навіщо потрібні Фреймворки?</h2>
+                <div class="frame__block inner__block">
+                    <p class="frame__text text">Існують завдання, спільні для різних веб-сайтів, веб-програм та інших продуктів. Це маршрутизація, взаємодія з базою даних, автентифікація користувачів, підтримка сеансів, захист від веб-атак, кешування, відокремлення логіки від представлення та багато іншого. Створювати код для виконання цих завдань щоразу – це невиправдана трата часу та зусиль. Код для виконання таких завдань реалізований у фреймворках. Фреймворки надають розробникам безліч можливостей, зокрема:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tips к фреймоврку  -->
+    <div class="tip main__block">
+        <div class="container">
+            <div class="tip__inner">
+                <img src="image/ideaman.svg" alt="" class="image__idea">
+                <ul class="tip__list">
+                    <li class="list__item">позбавляють необхідності писати код щоразу заново;</li>
+                    <li class="list__item">прискорюють процес розробки;</li>
+                    <li class="list__item">спрощують роботу над веб-програмою;</li>
+                    <li class="list__item">дозволяють сконцентруватися на логіці, специфічній для веб-програми;</li>
+                    <li class="list__item">відокремлюють логіку від уявлення;</li>
+                    <li class="list__item">реалізують базову функціональність веб-продукту.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- какие фреймоврки есть  -->
+    <div class="angular main__block">
+        <div class="container">
+            <div class="angular block">
+                <h2 class="angular__title title">Які є Фреймворки?</h2>
+                <div class="angular__block inner__block">
+                    <img src="image/angular.jpg" alt="" class="angular__img">
+                    <p class="angular__text text">Це фреймворк, який знайшов баланс між обмеженнями та гнучкістю. Його ядро вирішує передусім задачі представлення даних, тому він легко інтегрується в наявні проєкти поступово. Проте підходить для створення повноцінних SPA (Single-Page-Application) застосунків, адже має повний набір функціоналу. Завдяки хорошій документації, низькому рівню входу та невеликому розміру досить активно завойовує серця розробників Він має CLI, маршрутизацію, як Angular, використовує Virtual DOM і має досить швидкий час розробки, як React. Та все ж таки він має менш гнучкий компонентний підхід, ніж React, а керування життєвим циклом, що відбувається «під капотом» у великих проєктах, може стати проблемою через неочевидність і важкість відлагодження. З цього можна зробити висновок, що Vue.js круто підходить для розробки більшості вебзастосунків, але якщо треба робити надто складне відображення, звернутися варто до React.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="vue main__block">
+        <div class="container">
+            <div class="vue block">
+                <div class="vue__block inner__block">
+                    <div class="image__vue">
+                        <img src="image/vuefirst.png" alt="" class="angular__img">
+                        <img src="image/vuesecond.png" alt="" class="angular__img">
+                        <img src="image/vuethird.png" alt="" class="angular__img">
+                    </div>
+                    <p class="vue__text text">Angular — це повноцінний MVC-фреймворк від Google з підтримкою Typescript та Web Workers з коробки, а також з прекрасним CLI, за допомогою якого ви можете згенерувати шаблони для компонентів, маршрутів, сервісів за допомогою простих команд командного рядка.
+                        Завдяки чіткій і жорсткій структурі цей фреймворк є стабільним і надійним, але потребує досить багато ресурсів для написання застосунку, тому рідко використовується для маленьких проєктів, але прекрасно себе почуває в Enterprise-рішеннях.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="react main__block">
+        <div class="container">
+            <div class="react block">
+                <div class="react__block inner__block">
+                    <img src="image/react.jpg" alt="" class="angular__img">
+                    <p class="react__text text">Це дітище Facebook 2013 року, а також мій основний інструмент, який я використовую на фронтенд-частині. Варто зауважити, що React — це не фреймворк, а бібліотека візуалізації, якщо взяти патерн MVC (Model-View-Controller), то React — це лише частина View. Це перший продукт, що почав використовувати Virtual DOM для оптимізації оновлення DOM дерева (document object model — моделі, що згодом перетворюється в HTML і витрачає для цього велику кількість ресурсів). Суть оптимізації в тому, щоб оновлювати лише ті дані, які дійсно змінились, а для пошуку відмінностей використовувати полегшену віртуальну структуру. Однак це йому не заважає бути найпопулярнішою бібліотекою серед фреймворків.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- подвал сайта -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer__inner inner__block">
+                <img src="image/helloman.svg" alt="" class="hello__man">
+                <div class="links">
+                    <h2 class="footer__title title">Джерела</h2>
+                    <a href="https://dou.ua/forums/topic/34739/" class="footer__link">https://dou.ua/forums/topic/34739/</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
